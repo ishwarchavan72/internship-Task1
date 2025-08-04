@@ -1,0 +1,29 @@
+# Nmap Scan Report - Local Network
+
+Date: 2025-08-04
+
+Scan Type: TCP SYN Scan (-sS)
+Subnet Scanned: 192.168.225.0/24
+
+----------------------------------------
+Host: 192.168.225.1
+Host is up (Latency: 0.011s)
+MAC Address: 9A:08:6E:D5:0C:D9 (Unknown)
+Open Ports:
+ - 53/tcp    filtered   domain
+ - 80/tcp    open       http
+ - 6666/tcp  open       irc
+ - 7777/tcp  open       cbt
+
+----------------------------------------
+Host: 192.168.225.81 (LAPTOP-0APC1U69)
+Host is up (Latency: 0.0013s)
+Open Ports:
+ - 135/tcp   open   msrpc
+ - 139/tcp   open   netbios-ssn
+ - 445/tcp   open   microsoft-ds
+ - 3306/tcp  open   mysql
+
+----------------------------------------
+Nmap done: 256 IPs scanned, 2 hosts up.
+Scan Duration: 78.03 seconds
